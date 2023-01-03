@@ -49,7 +49,7 @@ public class Bicycle implements Vehicle {
             System.out.println("Can't increase speed, bicycle is already at max speed");
         }
         else {
-            speed -= 5;
+            speed += 5;
             System.out.println("Bicycle speed increased");
             System.out.println("Current Speed: " + speed);
         }
