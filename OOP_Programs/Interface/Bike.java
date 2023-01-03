@@ -54,12 +54,4 @@ public class Bike implements Vehicle {
             System.out.println("Current Speed: " + speed);
         }
     }
-
-    public static void main(String[] args) {
-        Bike bike = new Bike();
-        bike.speedUp();
-        bike.speedUp();
-        bike.applyBarkes();
-        bike.changeGear(true);
-    }
 }
